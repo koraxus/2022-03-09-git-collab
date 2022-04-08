@@ -40,3 +40,7 @@ git commit -am "b2 c1"
 echo "Changes to b2 commit 2" >> README.md
 git commit -am "b2 c2"
  ```
+
+ - Branch protection rules force you to practice collaboration on your own
+ - `git reset --hard <HASH>`: force move current branch to <HASH> location
+ - `git log --oneline --graph --all`
