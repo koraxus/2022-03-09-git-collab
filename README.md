@@ -17,3 +17,4 @@
 	- `git branch -d <NAME>`: delete the branch <NAME>
 		- Note: lower-case d (use -D for force delete)
 
+Changes to b1 commit 1
