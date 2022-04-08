@@ -19,3 +19,24 @@
 
 Changes to b1 commit 1
 Changes to b1 commit 2
+Changes to b2 commit 1
+Changes to b2 commit 2
+
+set up for rebase conflict
+
+```
+git checkout -b conflict_branch_1
+echo "Changes to b1 commit 1" >> README.md
+cat README.md
+git commit -am "b1 c1"
+echo "Changes to b1 commit 2" >> README.md
+git commit -am "b1 c2"
+git log --oneline --graph --all
+git checkout main
+git log --oneline --graph --all
+git checkout -b conflict_branch_2
+echo "Changes to b2 commit 1" >> README.md
+git commit -am "b2 c1"
+echo "Changes to b2 commit 2" >> README.md
+git commit -am "b2 c2"
+ ```
