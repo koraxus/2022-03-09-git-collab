@@ -1,4 +1,7 @@
 # 2022-03-09-git-collab
 
-	1. Add ssh key to git account
-	2. git clone repo using ssh
+- `git clolne <URL>`: "downloads" the repository to the current directory
+	- `git init`: creates a git repo locally
+
+
+
